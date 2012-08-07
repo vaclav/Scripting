@@ -21,6 +21,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="${project}/languages/Scripting/Scripting.mpl" />
+      <modulePath path="${project}/solutions/Scripting.build/build.msd" />
       <modulePath path="${project}/solutions/Scripting.sandbox/Scripting.sandbox.msd" />
     </projectModules>
     <genConfs />

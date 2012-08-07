@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="7867971007362173103">
-    <nodeInfo nodeId="6240804956234810114" fileName="MyScript.java" startLine="7" startPosition="23" endLine="8" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="myStaticField" />
-    <nodeInfo nodeId="6240804956234819099" fileName="MyScript.java" startLine="8" startPosition="40" endLine="9" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="anotherStaticField" />
+    <nodeInfo nodeId="6240804956234810114" fileName="MyScript.java" startLine="7" startPosition="23" endLine="8" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="myStaticField" />
+    <nodeInfo nodeId="6240804956234819099" fileName="MyScript.java" startLine="8" startPosition="39" endLine="9" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="anotherStaticField" />
     <nodeInfo nodeId="6240804956234810122" fileName="MyScript.java" startLine="10" startPosition="0" endLine="11" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myField" />
     <nodeInfo nodeId="6240804956234829110" fileName="MyScript.java" startLine="11" startPosition="43" endLine="12" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="anotherField" />
     <nodeInfo nodeId="7867971007362173105" fileName="MyScript.java" startLine="17" startPosition="23" endLine="18" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

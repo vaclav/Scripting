@@ -5,7 +5,7 @@ package Scripting.sandbox.sandbox;
 import java.util.Arrays;
 
 public class MyScript {
-  private static int myStaticField = 10;
+  public static int myStaticField = 10;
   private static int anotherStaticField = 10 + foo("Bar") + myStaticField;
 
   private int myField = 20 + myStaticField;

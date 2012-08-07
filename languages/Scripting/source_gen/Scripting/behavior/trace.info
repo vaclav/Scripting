@@ -3,7 +3,7 @@
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="32" endPosition="0" unitName="Scripting.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="FieldDeclarationInScript_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="Scripting.behavior.FieldDeclarationInScript_BehaviorDescriptor" />
   <unitInfo fileName="InstanceMethodDeclarationInScript_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="Scripting.behavior.InstanceMethodDeclarationInScript_BehaviorDescriptor" />
-  <unitInfo fileName="Script_BehaviorDescriptor.java" startLine="15" startPosition="0" endLine="44" endPosition="0" unitName="Scripting.behavior.Script_BehaviorDescriptor" />
+  <unitInfo fileName="Script_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="34" endPosition="0" unitName="Scripting.behavior.Script_BehaviorDescriptor" />
   <unitInfo fileName="StaticFieldDeclarationInScript_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="Scripting.behavior.StaticFieldDeclarationInScript_BehaviorDescriptor" />
   <unitInfo fileName="StaticMethodDeclarationInScript_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="Scripting.behavior.StaticMethodDeclarationInScript_BehaviorDescriptor" />
   <root nodeId="6240804956234706784">

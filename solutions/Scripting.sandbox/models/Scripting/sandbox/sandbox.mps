@@ -94,7 +94,7 @@
       <node role="statement" roleId="tpee.1068581517665" type="lbyx.StaticFieldDeclarationInScript" typeId="lbyx.6240804956234802384" id="6240804956234810113">
         <node role="declaration" roleId="lbyx.6240804956234802393" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="6240804956234810114">
           <property name="name" nameId="tpck.1169194664001" value="myStaticField" />
-          <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="6240804956234810115" />
+          <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6240804956234853308" />
           <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6240804956234810117" />
           <node role="initializer" roleId="tpee.1068431790190" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6240804956234810119">
             <property name="value" nameId="tpee.1068580320021" value="10" />
