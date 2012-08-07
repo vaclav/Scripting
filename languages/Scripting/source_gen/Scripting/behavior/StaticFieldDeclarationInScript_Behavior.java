@@ -8,6 +8,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.core.behavior.ScopeProvider_Behavior;
 
@@ -21,9 +22,13 @@ public class StaticFieldDeclarationInScript_Behavior {
       return Script_Behavior.call_createScope_6240804956234810155(script, Script_Behavior.call_retrieveStaticMethodDeclarations_6240804956234706787(script));
     } else if (SConceptOperations.isSubConceptOf(kind, "jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration")) {
       SNode script = SNodeOperations.getAncestor(thisNode, "Scripting.structure.Script", false, false);
-      return Script_Behavior.call_createScope_6240804956234810155(script, Sequence.fromIterable(Script_Behavior.call_retrieveStaticFieldDeclarations_6240804956234802612(script)).where(new IWhereFilter<SNode>() {
+      return Script_Behavior.call_createScope_6240804956234810155(script, Sequence.fromIterable(Script_Behavior.call_retrieveStaticFields_6240804956234829477(script)).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          return it != SLinkOperations.getTarget(thisNode, "declaration", true);
+          return SNodeOperations.getIndexInParent(it) < SNodeOperations.getIndexInParent(thisNode);
+        }
+      }).select(new ISelector<SNode, SNode>() {
+        public SNode select(SNode it) {
+          return SLinkOperations.getTarget(SNodeOperations.cast(it, "Scripting.structure.StaticFieldDeclarationInScript"), "declaration", true);
         }
       }));
     }

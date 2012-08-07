@@ -16,16 +16,16 @@ public class Script_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor im
   public Script_BehaviorDescriptor() {
   }
 
+  public boolean virtual_isNodeRunnable_4666195181811081448(SNode thisNode) {
+    return IMainClass_Behavior.virtual_isNodeRunnable_4666195181811081448(thisNode);
+  }
+
   public String virtual_getUnitName_4666195181811081431(SNode thisNode) {
     return IMainClass_Behavior.virtual_getUnitName_4666195181811081431(thisNode);
   }
 
   public Scope virtual_getScope_7722139651431880752(SNode thisNode, SNode kind, String role, int index) {
     return ScopeProvider_Behavior.virtual_getScope_7722139651431880752(thisNode, kind, role, index);
-  }
-
-  public boolean virtual_isNodeRunnable_4666195181811081448(SNode thisNode) {
-    return IMainClass_Behavior.virtual_isNodeRunnable_4666195181811081448(thisNode);
   }
 
   public String virtual_getFqName_1213877404258(SNode thisNode) {

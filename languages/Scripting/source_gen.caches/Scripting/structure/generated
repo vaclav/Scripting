@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="7jwgxq3em0grlwb3wc2artcmcav0686">
+<dependencies version="2" modelHash="-c6z6yiggpq93agcu5carnoxqnvsc9vn">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -34,16 +34,16 @@
   <source id="7867971007362031653" name="Script" hash="cxh3hm7f2upfqm3y0p5amuef36g4bgf">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="6240804956234679151" name="StaticMethodDeclarationInScript" hash="4vnuejltbpicqu8lqdassxou01e3dbn">
+  <source id="6240804956234679151" name="StaticMethodDeclarationInScript" hash="985jnoc2tzfq0ynco5av12ozoen6idt">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="6240804956234799480" name="InstanceMethodDeclarationInScript" hash="-2tbhc4cd54h2o3hs2z7igy78wz8h91p">
+  <source id="6240804956234799480" name="InstanceMethodDeclarationInScript" hash="b01unh5qklnei8zfz4df66zm0o3kbxl">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="6240804956234802384" name="StaticFieldDeclarationInScript" hash="-5a11hzgthsedvogwl3uhv47pnlvqxn8">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="6240804956234802448" name="FieldDeclarationInScript" hash="-54hg8yz2446gvcjsvedu4zpu7g940pt">
+  <source id="6240804956234802448" name="FieldDeclarationInScript" hash="-1q3zluwjmpujnl3hbsxujr46k1jdcnq">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

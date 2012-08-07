@@ -6,8 +6,10 @@ import java.util.Arrays;
 
 public class MyScript {
   private static int myStaticField = 10;
+  private static int anotherStaticField = 10 + foo("Bar") + myStaticField;
 
   private int myField = 20 + myStaticField;
+  private int anotherField = anotherStaticField + myField + calculate(1, 10);
 
   public MyScript() {
   }
@@ -25,7 +27,7 @@ public class MyScript {
   }
 
   public int calculate(int a, int b) {
-    return a + b;
+    return a + b - anotherStaticField + anotherField;
   }
 
   public static void main(String[] args) {
@@ -36,6 +38,6 @@ public class MyScript {
   }
 
   public static int foo(String value) {
-    return value.length() + myStaticField;
+    return value.length() + myStaticField - anotherStaticField;
   }
 }
