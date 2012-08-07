@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"Scripting.structure.FieldDeclarationInScript", "Scripting.structure.InstanceMethodDeclarationInScript", "Scripting.structure.Script", "Scripting.structure.StaticFieldDeclarationInScript", "Scripting.structure.StaticMethodDeclarationInScript"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"Scripting.structure.FieldDeclarationInScript", "Scripting.structure.InstanceMethodDeclarationInScript", "Scripting.structure.Script", "Scripting.structure.ScriptingFieldDeclaration", "Scripting.structure.ScriptingStaticFieldDeclaration", "Scripting.structure.StaticFieldDeclarationInScript", "Scripting.structure.StaticMethodDeclarationInScript"};
 
   public BehaviorAspectDescriptor() {
   }
@@ -16,14 +16,18 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
       case 2:
         return new Script_BehaviorDescriptor();
-      case 4:
+      case 6:
         return new StaticMethodDeclarationInScript_BehaviorDescriptor();
       case 1:
         return new InstanceMethodDeclarationInScript_BehaviorDescriptor();
-      case 3:
+      case 5:
         return new StaticFieldDeclarationInScript_BehaviorDescriptor();
       case 0:
         return new FieldDeclarationInScript_BehaviorDescriptor();
+      case 4:
+        return new ScriptingStaticFieldDeclaration_BehaviorDescriptor();
+      case 3:
+        return new ScriptingFieldDeclaration_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }

@@ -4,6 +4,8 @@
     <classNode dependClassName="Scripting.behavior.FieldDeclarationInScript_BehaviorDescriptor" />
     <classNode dependClassName="Scripting.behavior.InstanceMethodDeclarationInScript_BehaviorDescriptor" />
     <classNode dependClassName="Scripting.behavior.Script_BehaviorDescriptor" />
+    <classNode dependClassName="Scripting.behavior.ScriptingFieldDeclaration_BehaviorDescriptor" />
+    <classNode dependClassName="Scripting.behavior.ScriptingStaticFieldDeclaration_BehaviorDescriptor" />
     <classNode dependClassName="Scripting.behavior.StaticFieldDeclarationInScript_BehaviorDescriptor" />
     <classNode dependClassName="Scripting.behavior.StaticMethodDeclarationInScript_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.String" />
@@ -84,6 +86,26 @@
     <classNode dependClassName="jetbrains.mps.scope.Scope" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="Scripting.behavior.ScriptingFieldDeclaration_Behavior" file="ScriptingFieldDeclaration_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.action.SNodeFactoryOperations" />
+  </dependency>
+  <dependency className="Scripting.behavior.ScriptingFieldDeclaration_BehaviorDescriptor" file="ScriptingFieldDeclaration_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.FieldDeclaration_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="Scripting.behavior.ScriptingStaticFieldDeclaration_Behavior" file="ScriptingStaticFieldDeclaration_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.action.SNodeFactoryOperations" />
+  </dependency>
+  <dependency className="Scripting.behavior.ScriptingStaticFieldDeclaration_BehaviorDescriptor" file="ScriptingStaticFieldDeclaration_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.StaticFieldDeclaration_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="Scripting.behavior.StaticFieldDeclarationInScript_Behavior" file="StaticFieldDeclarationInScript_Behavior.java">

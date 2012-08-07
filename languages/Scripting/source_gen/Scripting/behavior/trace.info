@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="32" endPosition="0" unitName="Scripting.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="36" endPosition="0" unitName="Scripting.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="FieldDeclarationInScript_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="Scripting.behavior.FieldDeclarationInScript_BehaviorDescriptor" />
   <unitInfo fileName="InstanceMethodDeclarationInScript_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="Scripting.behavior.InstanceMethodDeclarationInScript_BehaviorDescriptor" />
   <unitInfo fileName="Script_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="34" endPosition="0" unitName="Scripting.behavior.Script_BehaviorDescriptor" />
+  <unitInfo fileName="ScriptingFieldDeclaration_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Scripting.behavior.ScriptingFieldDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="ScriptingStaticFieldDeclaration_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Scripting.behavior.ScriptingStaticFieldDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="StaticFieldDeclarationInScript_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="Scripting.behavior.StaticFieldDeclarationInScript_BehaviorDescriptor" />
   <unitInfo fileName="StaticMethodDeclarationInScript_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="Scripting.behavior.StaticMethodDeclarationInScript_BehaviorDescriptor" />
+  <root nodeId="4586161203141474346">
+    <nodeInfo nodeId="4586161203141474349" fileName="ScriptingStaticFieldDeclaration_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4586161203141474346" fileName="ScriptingStaticFieldDeclaration_Behavior.java" startLine="8" startPosition="55" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="4586161203141474348" fileName="ScriptingStaticFieldDeclaration_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="121" />
+    <scopeInfo nodeId="4586161203141474346" fileName="ScriptingStaticFieldDeclaration_Behavior.java" startLine="8" startPosition="55" endLine="12" endPosition="0">
+      <varInfo nodeId="4586161203141474346" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="4586161203141474346" fileName="ScriptingStaticFieldDeclaration_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="Scripting.behavior.ScriptingStaticFieldDeclaration_Behavior" />
+  </root>
+  <root nodeId="4586161203141486623">
+    <nodeInfo nodeId="4586161203141486628" fileName="ScriptingFieldDeclaration_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4586161203141486623" fileName="ScriptingFieldDeclaration_Behavior.java" startLine="8" startPosition="49" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="4586161203141486625" fileName="ScriptingFieldDeclaration_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="121" />
+    <scopeInfo nodeId="4586161203141486623" fileName="ScriptingFieldDeclaration_Behavior.java" startLine="8" startPosition="49" endLine="12" endPosition="0">
+      <varInfo nodeId="4586161203141486623" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="4586161203141486623" fileName="ScriptingFieldDeclaration_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="Scripting.behavior.ScriptingFieldDeclaration_Behavior" />
+  </root>
   <root nodeId="6240804956234706784">
     <nodeInfo nodeId="6240804956234738848" fileName="Script_Behavior.java" startLine="23" startPosition="39" endLine="24" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6240804956234738912" fileName="Script_Behavior.java" startLine="27" startPosition="37" endLine="28" endPosition="143" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

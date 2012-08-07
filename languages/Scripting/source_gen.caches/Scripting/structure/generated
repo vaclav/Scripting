@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="a8h68p42xrr7j148mvj12wkhb9nk6hy">
+<dependencies version="2" modelHash="ahae1zmp9h5bwy0vprioafkjrhvssg6">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -11,6 +11,8 @@
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
   <common hash="apun1nvmi60wjqjg2m5sklbcn01rg0u" dependsOnNodes="true">
+    <dep root="4586161203141452549" />
+    <dep root="4586161203141486611" />
     <dep root="6240804956234679151" />
     <dep root="6240804956234799480" />
     <dep root="6240804956234802384" />
@@ -38,10 +40,16 @@
   <source id="6240804956234799480" name="InstanceMethodDeclarationInScript" hash="b01unh5qklnei8zfz4df66zm0o3kbxl">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="6240804956234802384" name="StaticFieldDeclarationInScript" hash="-5a11hzgthsedvogwl3uhv47pnlvqxn8">
+  <source id="6240804956234802384" name="StaticFieldDeclarationInScript" hash="-59h8dshntsykezqkskupvxoser3whf3">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="6240804956234802448" name="FieldDeclarationInScript" hash="-1q3zluwjmpujnl3hbsxujr46k1jdcnq">
+  <source id="6240804956234802448" name="FieldDeclarationInScript" hash="3wmm2ea072ytz0gul7cu8qtmy8shwqu">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="4586161203141452549" name="ScriptingStaticFieldDeclaration" hash="-6xm3t7ujhe8qm704ewz1hdtp6rf333u">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="4586161203141486611" name="ScriptingFieldDeclaration" hash="i2xzysih4aqv8130lf84dwh0tetdmu">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

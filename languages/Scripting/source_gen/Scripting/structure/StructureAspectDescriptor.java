@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
-  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"Scripting.structure.FieldDeclarationInScript", "Scripting.structure.InstanceMethodDeclarationInScript", "Scripting.structure.Script", "Scripting.structure.StaticFieldDeclarationInScript", "Scripting.structure.StaticMethodDeclarationInScript"};
+  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"Scripting.structure.FieldDeclarationInScript", "Scripting.structure.InstanceMethodDeclarationInScript", "Scripting.structure.Script", "Scripting.structure.ScriptingFieldDeclaration", "Scripting.structure.ScriptingStaticFieldDeclaration", "Scripting.structure.StaticFieldDeclarationInScript", "Scripting.structure.StaticMethodDeclarationInScript"};
 
   public StructureAspectDescriptor() {
   }
@@ -22,8 +22,12 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 2:
         return new CompiledConceptDescriptor("Scripting.structure.Script", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.lang.core.structure.ScopeProvider"}, new String[]{}, new String[]{});
       case 3:
-        return new CompiledConceptDescriptor("Scripting.structure.StaticFieldDeclarationInScript", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement", "jetbrains.mps.lang.core.structure.ScopeProvider"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("Scripting.structure.ScriptingFieldDeclaration", "jetbrains.mps.baseLanguage.structure.FieldDeclaration", false, new String[]{"jetbrains.mps.baseLanguage.structure.FieldDeclaration"}, new String[]{}, new String[]{});
       case 4:
+        return new CompiledConceptDescriptor("Scripting.structure.ScriptingStaticFieldDeclaration", "jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration", false, new String[]{"jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration"}, new String[]{}, new String[]{});
+      case 5:
+        return new CompiledConceptDescriptor("Scripting.structure.StaticFieldDeclarationInScript", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement", "jetbrains.mps.lang.core.structure.ScopeProvider"}, new String[]{}, new String[]{});
+      case 6:
         return new CompiledConceptDescriptor("Scripting.structure.StaticMethodDeclarationInScript", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement", "jetbrains.mps.lang.core.structure.ScopeProvider"}, new String[]{}, new String[]{});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
