@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-5iom2egspga69nazg46nk3jcr6f0kz6">
+<dependencies version="2" modelHash="-7tquv8776dlug4ynfmemt9vlpdk59es">
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Core/jetbrains.mps.lang.smodel.generator.smodelAdapter@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -17,12 +18,14 @@
   <dep model="r:5ff5bf72-6a8f-4cf0-8675-1250ffb52b81(Scripting.behavior)" hash="-1upuwsimxjddmax3q5mdzro7gqrapfy" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common hash="90nwbpld599vmalhiabuspz46yjm7fw">
+  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+  <common hash="2tqexhxly718b0oc4913y7hzrlwfwaz">
     <dep root="6240804956234701921" />
     <dep root="6240804956234799511" />
     <dep root="6240804956234802411" />
     <dep root="6240804956234802473" />
     <dep root="7867971007362043983" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Core/jetbrains.mps.lang.smodel.generator.smodelAdapter@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -40,12 +43,13 @@
     <dep model="r:5ff5bf72-6a8f-4cf0-8675-1250ffb52b81(Scripting.behavior)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="QueriesGenerated.java" />
   </common>
   <source id="7867971007362041718" name="main" hash="-ejmruci29cep01fl9fnzhu8x72acmly">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="7867971007362043983" name="map_Script" hash="-583zryh8y53b0cjpplm5xtd0l4uh2em">
+  <source id="7867971007362043983" name="map_Script" hash="58id7dhm2e9jnq4bj8164h2284jn81q">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
   <source id="6240804956234701921" name="reduce_StaticMethodDeclarationInScript" hash="adw6ws5y6e40w2h2e2l4dgdr89l8lo1">

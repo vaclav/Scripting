@@ -5,15 +5,23 @@ package Scripting.generator.template.main;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.smodel.SNode;
+import Scripting.behavior.Script_Behavior;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
-import Scripting.behavior.Script_Behavior;
 
 public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_7867971007362044082(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
+  public static boolean ifMacro_Condition_4586161203141368639(final IOperationContext operationContext, final IfMacroContext _context) {
+    Iterable<SNode> statements = Script_Behavior.call_retrieveStatements_6240804956234738996(_context.getNode());
+    return Sequence.fromIterable(statements).isEmpty() || !(SNodeOperations.isInstanceOf(Sequence.fromIterable(statements).last(), "jetbrains.mps.baseLanguage.structure.TypeDerivable"));
   }
 
   public static SNode sourceNodeQuery_6240804956234802740(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

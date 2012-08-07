@@ -13,6 +13,12 @@
     <node type="lbyx.Script" typeId="lbyx.7867971007362031653" id="7867971007362173103">
       <property name="name" nameId="tpck.1169194664001" value="MyScript" />
     </node>
+    <node type="lbyx.Script" typeId="lbyx.7867971007362031653" id="4586161203141426164">
+      <property name="name" nameId="tpck.1169194664001" value="EmptyScript" />
+    </node>
+    <node type="lbyx.Script" typeId="lbyx.7867971007362031653" id="4586161203141426245">
+      <property name="name" nameId="tpck.1169194664001" value="VoidReturningScript" />
+    </node>
   </roots>
   <root id="7867971007362173103">
     <node role="body" roleId="lbyx.7867971007362041702" type="tpee.StatementList" typeId="tpee.1068580123136" id="7867971007362173104">
@@ -304,6 +310,27 @@
             </node>
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6240804956234802306">
               <property name="value" nameId="tpee.1068580320021" value="20" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="4586161203141426164">
+    <node role="body" roleId="lbyx.7867971007362041702" type="tpee.StatementList" typeId="tpee.1068580123136" id="4586161203141426165" />
+  </root>
+  <root id="4586161203141426245">
+    <node role="body" roleId="lbyx.7867971007362041702" type="tpee.StatementList" typeId="tpee.1068580123136" id="4586161203141426246">
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4586161203141426247">
+        <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4586161203141426248">
+          <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="4586161203141426249">
+            <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
+          </node>
+          <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4586161203141426250">
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4586161203141426251">
+              <property name="value" nameId="tpee.1070475926801" value="Running" />
             </node>
           </node>
         </node>

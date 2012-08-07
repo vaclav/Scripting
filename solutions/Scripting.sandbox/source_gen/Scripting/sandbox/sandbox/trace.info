@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <root nodeId="4586161203141426164">
+    <nodeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="10" startPosition="23" endLine="11" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="14" startPosition="42" endLine="15" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="16" startPosition="25" endLine="17" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="6" startPosition="26" endLine="8" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="EmptyScript#()V" />
+    <nodeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="15" startPosition="44" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="9" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="13" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <scopeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="7" startPosition="24" endLine="7" endPosition="24" />
+    <scopeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="10" startPosition="23" endLine="11" endPosition="16" />
+    <scopeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="16" startPosition="25" endLine="17" endPosition="46" />
+    <scopeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="6" startPosition="26" endLine="8" endPosition="3" />
+    <scopeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="9" startPosition="0" endLine="13" endPosition="0" />
+    <scopeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="14" startPosition="42" endLine="18" endPosition="5">
+      <varInfo nodeId="4586161203141426164" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="13" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="4586161203141426164" varName="args" />
+    </scopeInfo>
+    <unitInfo nodeId="4586161203141426164" fileName="EmptyScript.java" startLine="6" startPosition="0" endLine="21" endPosition="0" unitName="Scripting.sandbox.sandbox.EmptyScript" />
+  </root>
+  <root nodeId="4586161203141426245">
+    <nodeInfo nodeId="4586161203141426247" fileName="VoidReturningScript.java" startLine="10" startPosition="23" endLine="11" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="11" startPosition="34" endLine="12" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="15" startPosition="42" endLine="16" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="17" startPosition="25" endLine="18" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="6" startPosition="34" endLine="8" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="VoidReturningScript#()V" />
+    <nodeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="16" startPosition="52" endLine="19" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="9" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="14" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <scopeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="7" startPosition="32" endLine="7" endPosition="32" />
+    <scopeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="17" startPosition="25" endLine="18" endPosition="46" />
+    <scopeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="6" startPosition="34" endLine="8" endPosition="3" />
+    <scopeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="10" startPosition="23" endLine="12" endPosition="16" />
+    <scopeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="15" startPosition="42" endLine="19" endPosition="5">
+      <varInfo nodeId="4586161203141426245" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="9" startPosition="0" endLine="14" endPosition="0" />
+    <scopeInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="14" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="4586161203141426245" varName="args" />
+    </scopeInfo>
+    <unitInfo nodeId="4586161203141426245" fileName="VoidReturningScript.java" startLine="6" startPosition="0" endLine="22" endPosition="0" unitName="Scripting.sandbox.sandbox.VoidReturningScript" />
+  </root>
   <root nodeId="7867971007362173103">
     <nodeInfo nodeId="6240804956234810114" fileName="MyScript.java" startLine="7" startPosition="23" endLine="8" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="myStaticField" />
     <nodeInfo nodeId="6240804956234819099" fileName="MyScript.java" startLine="8" startPosition="39" endLine="9" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="anotherStaticField" />
