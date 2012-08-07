@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="lbyx" modelUID="r:010f4f0a-4d14-4483-9477-9faeb9284efe(Scripting.structure)" version="-1" />
+    </dependencies>
+    <rename id="lbyx.6240804956234679151" type="CONCEPT" from="StaticMethodDefinitionInScript" to="StaticMethodDeclarationInScript" />
+  </StructureModification>
+</history>
+
