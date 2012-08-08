@@ -23,6 +23,19 @@ public class MyScript {
     }
     int localValue = 10 + calculate(30, 10) + myField + myStaticField;
     System.out.println("Baz");
+
+    MyScript.Foo1 foo1 = new MyScript.Foo1();
+    foo1.method(10);
+    MyScript.Foo1.staticMethod(20);
+    MyScript.Bar1 bar1 = new MyScript.Bar1() {
+      public void barbar() {
+        System.out.println("Bar called");
+      }
+    };
+    bar1.barbar();
+    new ExternalClass().calculate(10);
+    new MyScript.NonStaticFoo();
+
     return 100 + foo("foo") + localValue + calculate(10, 20);
   }
 
@@ -39,5 +52,27 @@ public class MyScript {
 
   public static int foo(String value) {
     return value.length() + myStaticField - anotherStaticField;
+  }
+
+  public static class Foo1 {
+    public Foo1() {
+    }
+
+    public void method(int value) {
+      System.out.println("value=" + value);
+    }
+
+    public static void staticMethod(int value) {
+      System.out.println("value=" + value);
+    }
+  }
+
+  public static interface Bar1 {
+    public void barbar();
+  }
+
+  public class NonStaticFoo {
+    public NonStaticFoo() {
+    }
   }
 }

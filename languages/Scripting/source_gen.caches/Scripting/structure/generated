@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="ahae1zmp9h5bwy0vprioafkjrhvssg6">
+<dependencies version="2" modelHash="2sq3i5uukvp29butiilwkuelwvh5w1a">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -10,7 +10,7 @@
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common hash="apun1nvmi60wjqjg2m5sklbcn01rg0u" dependsOnNodes="true">
+  <common hash="1h9hxzfgp0vpiba5ibfpb22tvgdqxtj" dependsOnNodes="true">
     <dep root="4586161203141452549" />
     <dep root="4586161203141486611" />
     <dep root="6240804956234679151" />
@@ -31,7 +31,7 @@
     <file name="Scripting_Language.java" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="7867971007362031653" name="Script" hash="-evbawbdzpsnyj5rrszrpc5r4ybcsgiz">
+  <source id="7867971007362031653" name="Script" hash="aeh3juht3634vlk283t9mqiu1p1j1oz">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="6240804956234679151" name="StaticMethodDeclarationInScript" hash="985jnoc2tzfq0ynco5av12ozoen6idt">

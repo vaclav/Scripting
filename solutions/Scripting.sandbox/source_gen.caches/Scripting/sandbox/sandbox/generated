@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-c27yl3limhlregg9hmmfimt8xtxuz64">
+<dependencies version="2" modelHash="dhpasz1thw259rzuw88q54kevbrpj8x">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
-  <dep model="r:444f2323-c9c1-432e-a16e-e82226a90cd0(Scripting.generator.template.main@generator)" hash="-7tquv8776dlug4ynfmemt9vlpdk59es" />
+  <dep model="r:444f2323-c9c1-432e-a16e-e82226a90cd0(Scripting.generator.template.main@generator)" hash="-dtejg3zs7n5s71fi08vwgysvm0qgwze" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common hash="dszg21revqj4x31q288hgfp9645cqn7">
+  <common hash="d75z4xns6jjcklg06rer4cwedmlqtox">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="7867971007362173103" name="MyScript" hash="-4sn9v7i388gwq11krc2t08kex9se9ox">
+  <source id="7867971007362173103" name="MyScript" hash="-4ts8r78z7884bvl8aazgoqqgwe34d2j">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
@@ -35,6 +35,14 @@
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="VoidReturningScript.java" />
+  </source>
+  <source id="1256038236789380700" name="ExternalClass" hash="-awk7u38csss9nx2kte6upjfjq28cezh">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="ExternalClass.java" />
   </source>
 </dependencies>
 

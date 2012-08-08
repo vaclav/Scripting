@@ -6,5 +6,11 @@
     </dependencies>
     <rename id="lbyx.6240804956234679151" type="CONCEPT" from="StaticMethodDefinitionInScript" to="StaticMethodDeclarationInScript" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="lbyx" modelUID="r:010f4f0a-4d14-4483-9477-9faeb9284efe(Scripting.structure)" version="0" />
+    </dependencies>
+    <rename id="lbyx.1256038236789443588" type="CONCEPT" from="NestedClassifier" to="ScriptClassifierContainer" />
+  </StructureModification>
 </history>
 

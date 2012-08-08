@@ -24,6 +24,10 @@ public class QueriesGenerated {
     return Sequence.fromIterable(statements).isEmpty() || !(SNodeOperations.isInstanceOf(Sequence.fromIterable(statements).last(), "jetbrains.mps.baseLanguage.structure.TypeDerivable"));
   }
 
+  public static SNode sourceNodeQuery_1256038236789372958(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return _context.getNode();
+  }
+
   public static SNode sourceNodeQuery_6240804956234802740(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return _context.getNode();
   }
@@ -54,6 +58,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_6240804956234802500(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "declaration", true);
+  }
+
+  public static Iterable sourceNodesQuery_1256038236789372948(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "staticInnerClassifiers", true);
   }
 
   public static Iterable sourceNodesQuery_6240804956234802728(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

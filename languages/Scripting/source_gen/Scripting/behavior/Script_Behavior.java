@@ -99,6 +99,10 @@ public class Script_Behavior {
     return null;
   }
 
+  public static boolean virtual_isDescendant_7165541881557222913(SNode thisNode, SNode nodeToCompare) {
+    return ListSequence.fromList(SNodeOperations.getAncestors(nodeToCompare, "Scripting.structure.Script", true)).contains(thisNode);
+  }
+
   public static Scope call_createScope_6240804956234810155(SNode thisNode, final Iterable<SNode> elements) {
     return new Scope() {
       /**
